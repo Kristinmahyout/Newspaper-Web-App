@@ -1,0 +1,35 @@
+.text{
+    width:100%;
+    border-radius:5px;
+    border:1px solid #aaa;
+    outline:none;
+    font-family:Helvetica;
+    color:#000;
+}
+
+.message{
+    height:200px;
+    border:1px solid #aaa;
+    color:#000;
+    
+}
+
+#category{
+    width:100%;
+    outline:none;
+    color:#000;
+}
+
+.article{
+    border:0px;
+    margin-top:0px;
+}
+
+textarea.message{
+    height:300px !important;
+}
+
+form{
+    font-family:Helvetica;
+    color:#aaa;
+}

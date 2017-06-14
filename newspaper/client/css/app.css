@@ -1,0 +1,135 @@
+.text {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  outline: none;
+  font-family: Helvetica;
+  color: #000; }
+
+.message {
+  height: 200px;
+  border: 1px solid #aaa;
+  color: #000; }
+
+#category {
+  width: 100%;
+  outline: none;
+  color: #000; }
+
+.article {
+  border: 0px;
+  margin-top: 0px; }
+
+textarea.message {
+  height: 300px !important; }
+
+form {
+  font-family: Helvetica;
+  color: #aaa; }
+
+form {
+  margin-top: 50px;
+  height: 320px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 40px 40px; }
+
+.email, .password {
+  width: 80%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-left: 10%; }
+
+input.email {
+  height: 40px;
+  text-indent: 45px;
+  background-image: url("../images/envelope.png");
+  background-repeat: no-repeat;
+  background-position: 3px 5px; }
+
+input.password {
+  height: 40px;
+  text-indent: 45px;
+  margin-top: -10px;
+  background-image: url("../images/asterisk.png");
+  background-repeat: no-repeat;
+  background-position: 3px 5px; }
+
+.logbutton {
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 10px;
+  color: #fff;
+  background-color: deepskyblue;
+  font-family: Helvetica;
+  border-style: none; }
+
+.login-title {
+  margin-left: 30%;
+  font-family: Helvetica;
+  color: #000; }
+
+@font-face {
+  font-family: 'Canterbury';
+  src: url("../fonts/Canterbury-Regular.eot");
+  src: url("../fonts/Canterbury-Regular.eot?#iefix") format("embedded-    opentype"), url("../fonts/Canterbury-Regular.woff2") format("woff2"), url("../fonts/Canterbury-Regular.woff") format("woff"), url("../fonts/Canterbury-Regular.ttf") format("truetype"), url("../fonts/Canterbury-Regular.svg#Canterbury-Regular") format("svg"); }
+li.active.home {
+  color: #555;
+  background-color: #000 !important; }
+
+h1.title {
+  font-family: 'Canterbury';
+  margin-left: 33%; }
+  @media (max-width: 40em) {
+    h1.title {
+      margin-left: 20%; } }
+  @media (max-width: 26.25em) {
+    h1.title {
+      text-align: center;
+      margin-left: 0; } }
+
+ul.header-nav {
+  list-style-type: none;
+  margin-left: 28%; }
+  @media (max-width: 40em) {
+    ul.header-nav {
+      margin-left: 20%; } }
+  @media (max-width: 26.25em) {
+    ul.header-nav {
+      text-align: center;
+      margin-left: -5%; } }
+  ul.header-nav li {
+    display: inline-block;
+    width: 18%;
+    font-size: .8em; }
+    @media (max-width: 26.25em) {
+      ul.header-nav li {
+        width: 25%; } }
+
+.final {
+  background-color: #000 !important; }
+  .final ul .active {
+    background-color: #000 !important; }
+  .final ul li a {
+    color: #aaa; }
+  .final ul li {
+    background-color: #000;
+    color: #aaa;
+    height: 30px;
+    font-size: .8em; }
+  .final ul .last {
+    margin-left: 35%; }
+
+.btn-default {
+  color: #fff !important;
+  background-color: #0000ff !important;
+  border-color: #ccc;
+  width: 100% !important; }
+
+.active {
+  font-size: .9em !important;
+  color: #fff !important;
+  background-color: #000 !important; }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,87 @@
+@import 'form.scss';
+@import 'login.scss';
+
+@font-face {
+  font-family: 'Canterbury';
+  src: url("../fonts/Canterbury-Regular.eot");
+  src: 
+    url("../fonts/Canterbury-Regular.eot?#iefix") format("embedded-    opentype"), 
+    url("../fonts/Canterbury-Regular.woff2") format("woff2"), url("../fonts/Canterbury-Regular.woff") format("woff"), url("../fonts/Canterbury-Regular.ttf") format("truetype"), url("../fonts/Canterbury-Regular.svg#Canterbury-Regular") format("svg");
+}
+
+@mixin forSmallScreens($media) {
+    @media (max-width: $media/16+em) {
+        @content; 
+    };
+}
+
+li.active.home{
+    color: #555;
+    background-color: #000 !important;
+}
+
+h1.title {
+    font-family: 'Canterbury'; 
+    margin-left:33%;
+    @include forSmallScreens(640){
+        margin-left:20%;
+    }
+    @include forSmallScreens(420){
+        text-align:center;
+        margin-left:0;
+    }
+}
+
+ul.header-nav{
+    list-style-type:none;
+    margin-left:28%;
+    @include forSmallScreens(640){
+        margin-left:20%;
+    }
+    @include forSmallScreens(420){
+        text-align:center;
+        margin-left:-5%;
+    }
+    li{
+        display:inline-block;
+        width:18%;
+        font-size:.8em;
+        @include forSmallScreens(420){
+            width:25%;
+        }
+    }
+}
+
+.final{
+    background-color:#000 !important;
+    ul{
+        .active{
+            background-color:#000 !important;
+        }
+        li a{
+            color:#aaa;
+        }
+        li{
+        background-color:#000;
+        color:#aaa;
+        height:30px;
+        font-size:.8em;
+        
+        }
+        .last{
+                margin-left:35%;
+            }
+    }
+}
+
+.btn-default{
+    color: #fff !important;
+    background-color: #0000ff !important;
+    border-color: #ccc;
+    width:100% !important;
+}
+.active{
+    font-size:.9em !important;
+    color:#fff !important;
+    background-color:#000 !important;
+    }

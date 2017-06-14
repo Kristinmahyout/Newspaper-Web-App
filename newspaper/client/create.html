@@ -1,0 +1,70 @@
+
+<html>
+    <head>
+        <title>Seattle Central Times</title>
+        <link rel="stylesheet" href="css/app.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="col-sm-12">
+                <header>
+                    <h1 class="title">Seattle Central Times</h1>
+                    <ul class="header-nav">
+                        <li>June 16, 2017</li>
+                        <li><img src="images/partlycloudy.gif"></li>
+                        <li><a href="login.html">Editor Login</a></li>
+                    </ul>
+                </header>
+            </div>
+            <div class="col-sm-12">
+                <nav class="navbar navbar-default final">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="campus.html">Campus</a> </li>
+                            <li>
+                                <a href="community.html">Community</a>
+                            </li>
+                            <li>
+                                <a href="opinion.html">Opinion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            </div>
+        
+            <div class="col-sm-6 col-sm-offset-3 centered">
+                <h4 class="form">Article Form</h4>
+                <form class="article" action="#" method="post">
+                    Title: <br>
+                        <input class="form-control" type="text" id="title" placeholder="Title of Article" name="title"><br><br>
+                    Category: <br>
+                        <select class="form-control" id="category" name="category">
+                        <option value="select">Select Category</option>
+                        <option value="Campus">Campus</option>
+                        <option value="Community">Community</option>
+                        <option value="Opinion">Opinion</option>
+                        </select><br><br>
+                    Message: <br>
+                        <textarea id="content" name="content" class="form-control message" placeholder="Best Article Ever"></textarea><br>
+                        <input id="create-button" class="button btn btn-default" type="submit" name="Submit">
+                        <br><br><br><br><br>
+            
+            
+                </form>
+            </div>
+        
+        <script type="text/javascript">
+            var js_page = 'create_page';
+        </script>
+        <script type="text/javascript" src="js/build/app.js"></script>
+    </body>
+</html>
